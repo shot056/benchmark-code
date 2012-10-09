@@ -1,0 +1,32 @@
+  897  ab --help
+  898  ab -n 100000 -c 1000 http://localhost:9000
+  899  ab -n 100000 -c 1000 http://localhost:9000/
+  900  ab -n 100000 -c 1000 http://dev64.dolphin.shanon.co.jp:9000/
+  901  ab -n 100000 -c 1000 http://dev64.cent6.dolphin.shanon.co.jp:9000/
+  910  ab -n 100000 -c 1000 -e scalar_play2.csv http://dev64.cent6.dolphin.shanon.co.jp:9000/
+  914  ab --hel
+  916  ab -n 100000 -c 1000 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:9000/
+  917  ab -n 100000 -c 1000 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  921  ab -n 100000 -c 1000 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  922  ab -n 100000 -c 100 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  925  ab -n 100000 -c 1000 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  926  ab -n 100000 -c 1000 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
+  927  ab -n 100000 -c 100 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
+  929  ab -n 100000 -c 100 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
+  932  ab -n 100000 -c 100 -e scalar_play2.csv http://dev64.cent6.dolphin.shanon.co.jp:9000/
+  938  ab -n 100000 -c 100 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
+  939  ab -n 100000 -c 100 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  943  ab -n 100000 -c 100 -e node_express.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  958  ab -n 100000 -c 1 -e node_express_1.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  960  ab -n 100000 -c 1000 -e node_express_1000.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  961  whereis ab
+  962  ld /usr/bin/ab 
+  963  ldd /usr/bin/ab 
+  964  scp /usr/bin/ab sho@192.168.88.243:/tm
+  965  scp /usr/bin/ab sho@192.168.88.243:/tmp
+  967  scp /usr/bin/ab sho@192.168.88.243:/tmp
+  969  ab -n 100000 -c 800 -e node_express_800.csv http://dev64.cent6.dolphin.shanon.co.jp:3000/
+  977  history | grep ab
+  978  ab -n 100000 -c 1000 -e perl_mojo.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
+  980  ab -n 100000 -c 100 -e perl_mojo_100ev.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
+  982  ab -n 100000 -c 100 -e perl_mojo_100hypnotoad.csv http://dev64.cent6.dolphin.shanon.co.jp:5000/
